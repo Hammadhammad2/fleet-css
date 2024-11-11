@@ -5,3 +5,17 @@
 select {
   border: none;
 }
+
+.bg-custom {
+  @apply bg-[url('./assets/bg-image.png')];
+}
+
+.bg-gradient-custom {
+  @apply sm:bg-[url('./assets/gradient-faded.png')];
+}
+
+.bg-box-shadow {
+  box-shadow: 0px 40px 64px -32px #0f0f0f1a;
+  backdrop-filter: blur(32px);
+  background: linear-gradient(83.59deg, #fcfcfd 36.52%, rgba(252, 252, 253, 0.83) 98.8%);
+}
