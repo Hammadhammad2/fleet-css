@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-const colors = require('tailwindcss/colors');
 
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
@@ -23,13 +22,14 @@ export default {
       poppins: ['Poppins', 'sans-serif'],
       dmSans: ['DM Sans', 'sans-serif'],
     },
-    colors: {
-      primary: '#23262F',
-      secondary: '#777E90',
-      lightGray: '#E6E8EC',
-      darkGray: '#777E90',
-      buttonPrimary: '#3B71FE',
-      ...colors,
+    extend: {
+      colors: {
+        primary: '#23262F',
+        secondary: '#777E90',
+        lightGray: '#E6E8EC',
+        darkGray: '#777E90',
+        buttonPrimary: '#3B71FE',
+      },
     },
   },
   plugins: [],

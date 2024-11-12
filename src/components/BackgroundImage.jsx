@@ -5,7 +5,7 @@ import Tabs from './Shared/Tabs';
 const BackgroundImage = () => {
   const tabs = ['Stays', 'Flights', 'Cars', 'Things to do'];
   return (
-    <div className='xs:bg-[#F4F5F6] sm:bg-none xs:rounded-3xl'>
+    <div className='xs:bg-[#F4F5F6] sm:bg-none xs:rounded-3xl lg:mb-40 sm:mb-16 xs:mb-5'>
       <div className='bg-custom rounded-3xl w-full sm:bg-cover sm:bg-center lg:h-[48.5rem] xs:h-[50.75rem] bg-no-repeat xs:bg-right-bottom xs:bg-180% relative'>
         <div className='absolute bg-gradient-custom rounded-3xl w-full inset-0 bg-no-repeat bg-cover'>
           <div className='h-[37.5625rem] xs:h-[39.5625rem] w-full sm:px-20 xs:px-4 xs:pt-20 flex flex-col sm:justify-start gap-6 xs:items-center sm:items-start xs:gap-4 sm:py-[146px]'>
