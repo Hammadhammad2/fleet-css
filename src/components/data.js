@@ -21,7 +21,7 @@ export const hostsData = [
     rating: 4.8,
     location: 'New York, USA',
     profilePic: 'https://randomuser.me/api/portraits/women/1.jpg',
-    backgroundImage:
+    HeroSection:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTRk6OGeUO4B58owLnFTe20pvp8vHT9j96VxaVWmfblFzH40TBguHXviQZ7q6TLb4qlsM&usqp=CAU',
   },
   {
@@ -29,7 +29,7 @@ export const hostsData = [
     rating: 4.3,
     location: 'London, UK',
     profilePic: 'https://randomuser.me/api/portraits/men/1.jpg',
-    backgroundImage:
+    HeroSection:
       'https://www.shutterstock.com/image-illustration/abstract-digital-science-fiction-matrix-600nw-398787766.jpg',
   },
   {
@@ -37,7 +37,7 @@ export const hostsData = [
     rating: 4.6,
     location: 'Paris, France',
     profilePic: 'https://randomuser.me/api/portraits/women/2.jpg',
-    backgroundImage:
+    HeroSection:
       'https://media.istockphoto.com/id/1392689795/vector/futuristic-or-magic-portal-with-glow-effect-blank-display-stage-or-podium-for-show-product.jpg?s=612x612&w=0&k=20&c=Ib2E4je1QRz_ZK1yFR0hovL9xbeXZfkRobjRQ6AfoQc=',
   },
   {
@@ -45,7 +45,7 @@ export const hostsData = [
     rating: 4.7,
     location: 'Berlin, Germany',
     profilePic: 'https://randomuser.me/api/portraits/men/2.jpg',
-    backgroundImage:
+    HeroSection:
       'https://www.shutterstock.com/image-illustration/abstract-digital-science-fiction-matrix-600nw-398787766.jpg',
   },
   {
@@ -53,7 +53,7 @@ export const hostsData = [
     rating: 4.9,
     location: 'Tokyo, Japan',
     profilePic: 'https://randomuser.me/api/portraits/women/3.jpg',
-    backgroundImage:
+    HeroSection:
       'https://media.istockphoto.com/id/1392689795/vector/futuristic-or-magic-portal-with-glow-effect-blank-display-stage-or-podium-for-show-product.jpg?s=612x612&w=0&k=20&c=Ib2E4je1QRz_ZK1yFR0hovL9xbeXZfkRobjRQ6AfoQc=',
   },
   {
@@ -61,7 +61,7 @@ export const hostsData = [
     rating: 4.4,
     location: 'Sydney, Australia',
     profilePic: 'https://randomuser.me/api/portraits/men/3.jpg',
-    backgroundImage:
+    HeroSection:
       'https://media.istockphoto.com/id/1391869247/vector/gui-and-ui-virtual-reality-portal-and-hologram-science-futuristic-sci-fi-digital-hi-tech-in.jpg?s=612x612&w=0&k=20&c=avkwbh6H3cKd-GC8ahXaNumTrsQ6-Qt4cmwTPuas2K0=',
   },
   {
@@ -69,7 +69,7 @@ export const hostsData = [
     rating: 4.5,
     location: 'Toronto, Canada',
     profilePic: 'https://randomuser.me/api/portraits/women/4.jpg',
-    backgroundImage:
+    HeroSection:
       'https://www.shutterstock.com/image-illustration/abstract-digital-science-fiction-matrix-600nw-398787766.jpg',
   },
   {
@@ -77,7 +77,7 @@ export const hostsData = [
     rating: 4.6,
     location: 'Madrid, Spain',
     profilePic: 'https://randomuser.me/api/portraits/men/4.jpg',
-    backgroundImage:
+    HeroSection:
       'https://media.istockphoto.com/id/1391869247/vector/gui-and-ui-virtual-reality-portal-and-hologram-science-futuristic-sci-fi-digital-hi-tech-in.jpg?s=612x612&w=0&k=20&c=avkwbh6H3cKd-GC8ahXaNumTrsQ6-Qt4cmwTPuas2K0=',
   },
 ];

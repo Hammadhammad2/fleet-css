@@ -2,7 +2,7 @@ import React from 'react';
 import Button from './Shared/Button';
 import Tabs from './Shared/Tabs';
 
-const BackgroundImage = () => {
+const HeroSection = () => {
   const tabs = ['Stays', 'Flights', 'Cars', 'Things to do'];
   return (
     <div className='xs:bg-[#F4F5F6] sm:bg-none xs:rounded-3xl lg:mb-40 sm:mb-16 xs:mb-5'>
@@ -28,4 +28,4 @@ const BackgroundImage = () => {
 `
 `;
 
-export default BackgroundImage;
+export default HeroSection;

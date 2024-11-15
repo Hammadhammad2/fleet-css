@@ -40,7 +40,7 @@ const HostsSection = () => {
               className='xl:min-w-[0.25%] lg:min-w-[33.3333%] flex-shrink-0 flex justify-center items-center transition-all duration-500 ease-in-out transform'
             >
               <div className='border border-lightGray rounded-3xl transform min-w-[256.6px] max-w-[256.6px] min-h-[22.25rem] relative'>
-                <img src={host.backgroundImage} className='w-full h-[13.75rem] object-cover rounded-t-3xl' />
+                <img src={host.HeroSection} className='w-full h-[13.75rem] object-cover rounded-t-3xl' />
                 <img
                   src={host.profilePic}
                   alt='profile-pic'

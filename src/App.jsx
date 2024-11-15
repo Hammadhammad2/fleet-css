@@ -1,5 +1,5 @@
 import AdventureSection from './components/AdventureSection';
-import BackgroundImage from './components/BackgroundImage';
+import HeroSection from './components/HeroSection';
 import Header from './components/Header';
 import HostsSection from './components/HostsSection';
 import Listing from './components/listing';
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='px-20 lg:px-10 xs:px-2'>
       <Header />
-      <BackgroundImage />
+      <HeroSection />
       <AdventureSection />
       <MemoriesSection />
       <Listing />
