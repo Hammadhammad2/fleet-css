@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
@@ -10,17 +11,26 @@ export default {
       xl: '1440px',
       '2xl': '1536px',
     },
+    backgroundSize: {
+      auto: 'auto',
+      cover: 'cover',
+      contain: 'contain',
+      '180%': '180%',
+      16: '4rem',
+    },
     fontFamily: {
       poppins: ['Poppins', 'sans-serif'],
       dmSans: ['DM Sans', 'sans-serif'],
     },
-    colors: {
-      primary: '#FF5C00',
-      secondary: '#FFC700',
-      white: '#FFFFFF',
-      black: '#000000',
-      lightGray: '#E6E8EC',
-      darkGray: '#777E90',
+    extend: {
+      colors: {
+        primary: '#23262F',
+        secondary: '#777E90',
+        lightGray: '#E6E8EC',
+        buttonPrimary: '#3B71FE',
+        primaryGray: '#F4F5F6',
+        tabBg: '#353945',
+      },
     },
   },
   plugins: [],
