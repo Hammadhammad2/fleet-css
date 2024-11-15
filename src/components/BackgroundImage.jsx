@@ -17,7 +17,7 @@ const BackgroundImage = () => {
               <Button>Start your search</Button>
             </div>
           </div>
-          <div className='sm:mx-20 xs:mx-1 sm:p-10 xs:p-5 bg-white sm:h-[15.9375rem] xs:h-[10.9375rem] rounded-3xl bg-box-shadow'>
+          <div className='sm:mx-20 xs:mx-1 sm:p-10 xs:p-5 bg-white sm:h-[15.9375rem] xs:h-[10.9375rem] rounded-3xl'>
             <Tabs tabs={tabs} />
           </div>
         </div>

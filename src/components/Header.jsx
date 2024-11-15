@@ -17,12 +17,12 @@ const Header = () => {
         <DropDown options={travelersDropdownOptions} className='lg:block hidden' />
       </div>
       <div className='flex items-center gap-8'>
-        <a href='#' className='font-poppins font-semibold text-[1.125rem] leading-7 text-darkGray xl:block hidden'>
+        <a href='#' className='font-poppins font-semibold text-[1.125rem] leading-7 text-secondary xl:block hidden'>
           Support
         </a>
         <div className='items-center justify-center gap-3 px-2 xs:hidden xl:flex hidden'>
           <img className='h-4 w-4' src={WordLogo} />
-          <a href='#' className='font-poppins font-semibold text-[1.125rem] leading-7 text-darkGray'>
+          <a href='#' className='font-poppins font-semibold text-[1.125rem] leading-7 text-secondary'>
             Language
           </a>
         </div>
